@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+  }
+
+.flex.justify-center.items-center.bg-\[\#0A0C1B\].h-screen {
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+.container-left{
+    padding: 5%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+    
+}
+.container-right{
+    width: 50%;
+}
+.container-right img{
+    width: 100%;
+    filter: invert(17%) sepia(20%) saturate(1197%) hue-rotate(242deg) brightness(60%) contrast(80%);
+}
+.contenedorFlex{
+    justify-content: space-between;
+}
+
+.estadistica{
+    font-size: 1.5rem/* 24px */;
+    line-height: 2rem/* 32px */;
+}
